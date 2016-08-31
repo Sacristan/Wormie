@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NodeRendering : MonoBehaviour 
+public class NodeRenderer : MonoBehaviour 
 {
     [SerializeField]
     private Color startColor = Color.white;

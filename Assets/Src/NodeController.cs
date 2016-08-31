@@ -30,6 +30,6 @@ public class NodeController : MonoBehaviour
 			}
 			this.nodeObjects[i].SetNode(this.nodeObjects[i - 1], this.nodeObjects[i + 1], this.distance);
 		}
-		this.gameObject.GetComponent<NodeRendering >().Init(this.nodeObjects);
+		this.gameObject.GetComponent<NodeRenderer >().Init(this.nodeObjects);
 	}
 }
